@@ -18,7 +18,7 @@ public interface CrudGenericService<T> extends Serializable{
 	
 	T persistent (T t) throws Exception;
 	
-	T saveOrUpdate (T t) throws Exception;
+	void saveOrUpdate (T t) throws Exception;
 	
 	T update (T t) throws Exception;
 
